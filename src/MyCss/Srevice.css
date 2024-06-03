@@ -1,0 +1,80 @@
+.mainclass-Container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    /* background-color: #f4f3ee; */
+    /* background-image: url("../Componants/img/4169986-uhd_3840_2160_30fps.mp4"); */
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.sub-container {
+    display: flex;
+    width: 90%;
+    height: 70%;
+    /* border: 2px solid black; */
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.delivery-container {
+    display: flex;
+    width: 30%;
+    height: 70%;
+    background-image: url("../Componants/img/sky.jfif");
+    background-size: cover;
+    /* background-color:#fee440; */
+    border: 2px solid black;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.delivery-container:hover{
+    box-shadow: 3px 7px 10px #8a817c;
+    transform: scale(1.1, 1.1);
+}
+
+.onlinebooking-container {
+    display: flex;
+    width: 30%;
+    height: 70%;
+    background-image: url("../Componants/img/sky.jfif");
+    background-size: cover;
+    /* background-color:#bcb8b1 ; */
+    border: 2px solid black;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.onlinebooking-container:hover{  
+    box-shadow: 3px 7px 10px #8a817c;
+    transform: scale(1.1, 1.1);
+}
+
+.hugefleet-container {
+    display: flex;
+    width: 30%;
+    height: 70%;
+    background-image: url("../Componants/img/sky.jfif");
+    background-size: cover;
+    /* background-color:#fee440 ; */
+    border: 2px solid black;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hugefleet-container:hover{
+    box-shadow: 3px 7px 10px #8a817c;
+    transform: scale(1.1, 1.1);
+}

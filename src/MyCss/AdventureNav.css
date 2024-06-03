@@ -1,0 +1,50 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+*{
+    font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.icon {
+    margin-right: 20px;
+}
+
+.nav {
+    display: flex;
+    background-color: gold;
+    position: fixed;
+    position: top;
+    width: 100%;
+    z-index: 999;
+    
+}
+.nav-link{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+.nav-link:hover{
+    background-color: snow;
+    border-radius: 40px;
+}
+/* .icon{
+    display: flex;
+    flex-direction: row;
+} */
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black ; */
+    width: 100vw;
+    height: 100vh;
+  }
+
+.brand {
+    font-style: italic;
+}

@@ -1,0 +1,41 @@
+/* BookingDeta */
+.mainbooking-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+/* .food-item {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    gap: 20px;
+} */
+
+.mainbooking-container img {
+    height: 320px;
+    width: 420px;
+    /* border-radius: 50%; */
+    margin: 10px;
+}
+
+.detail-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../Componants/img/plain\ image\ 4.jpg");
+    background-size: cover;
+    /* gap: 10px; */
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.booking-content {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

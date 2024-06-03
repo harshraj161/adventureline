@@ -1,0 +1,71 @@
+.brand-title {
+    color: #222;
+    font-size: 2.5rem;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+
+
+.asdfa {
+    /* margin-top: 10%; */
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    padding: 10px;
+
+}
+
+.Cardas {
+    /* position: relative;
+    width: 180px;
+    height: 150px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    padding: 2px 10px;
+    background: #fff;
+    cursor: pointer;
+    display: grid; */
+    flex: 0 1 auto;
+    display: block;
+    margin: 0 5px 8px;
+    width: 180px;
+    height: 160px;
+    background-color: #E5E8E8;
+    position: relative;
+    padding: 10px;
+    z-index: 9;
+    border-radius: 15px;
+
+
+
+}
+
+.Cardas:hover {
+
+    box-shadow: 0px 5px 20px #000;
+    transition: 0.3s;
+}
+
+.Cardas img {
+
+    max-width: 100%;
+    height: auto;
+    margin-top: 14%;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.Cardas img:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.Cardas h5 {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 5%;
+
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+*{
+    font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.icon {
+    margin-right: 20px;
+}
+
+.header {
+    display: flex;
+    background-color: black;
+}
+
+.header h1 {
+    color: white;
+}
+
+
+.changya-nav{
+    display: flex;
+    background-color: #eeef20;
+    width: 100%;
+    height: 70px;
+}
+
+.bb-color{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+}
